@@ -1,0 +1,6 @@
+framework module FloatingView {
+  umbrella header "FloatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

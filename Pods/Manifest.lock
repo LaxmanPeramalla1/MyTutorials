@@ -1,0 +1,182 @@
+PODS:
+  - Alamofire (4.7.2)
+  - ALCameraViewController (3.0.3)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - ExpandableCell (1.2.2)
+  - Firebase/Core (5.0.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.0)
+  - Firebase/CoreOnly (5.0.1):
+    - FirebaseCore (= 5.0.1)
+  - Firebase/Messaging (5.0.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.0)
+  - FirebaseAnalytics (5.0.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.1):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.0.0):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FloatingView (0.0.3)
+  - Floaty (4.0.1)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - Material (2.15.0):
+    - Material/Core (= 2.15.0)
+  - Material/Core (2.15.0):
+    - Motion (~> 1.3.0)
+  - MaterialComponents/AnimationTiming (55.1.0)
+  - MaterialComponents/Buttons (55.1.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (55.1.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (55.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (55.1.0)
+  - MaterialComponents/private/KeyboardWatcher (55.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (55.1.0)
+  - MaterialComponents/private/Overlay (55.1.0)
+  - MaterialComponents/private/Shapes (55.1.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (55.1.0)
+  - MaterialComponents/ShadowLayer (55.1.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (55.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (55.1.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (1.0.4)
+  - MDFTextAccessibility (1.2.0)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.5.0)
+  - ReachabilitySwift (4.1.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SwiftMessages (4.1.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - ALCameraViewController
+  - CodableAlamofire
+  - ExpandableCell
+  - Firebase/Core
+  - Firebase/Messaging
+  - FloatingView
+  - Floaty
+  - GoogleMaps (= 2.5.0)
+  - GooglePlacePicker (= 2.5.0)
+  - GooglePlaces (= 2.5.0)
+  - Material
+  - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar
+  - ReachabilitySwift (= 4.1.0)
+  - SDWebImage (~> 4.0)
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ALCameraViewController
+    - CodableAlamofire
+    - ExpandableCell
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FloatingView
+    - Floaty
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - Material
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Motion
+    - nanopb
+    - Protobuf
+    - ReachabilitySwift
+    - SDWebImage
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  ExpandableCell: f2d99f9ae03a8c393e268adddaeb7f6d2525a76e
+  Firebase: d6861c2059d8c32d1e6dd8932e22ada346d90a3a
+  FirebaseAnalytics: 19812b49fa5f283dd6b23edf8a14b5d477029ab8
+  FirebaseCore: cafc814b2d84fc8733f09e653041cc2165332ad7
+  FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
+  FirebaseMessaging: f2360a966ecfb0d14facf0fbdf306efc2df0ddbe
+  FloatingView: ac98ddfe72fb0bd0e9c4c59b1a88e41c1f55bdb3
+  Floaty: 82854e1a5ef4fa208281ebd4da2f3d1e51ba67a6
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  Material: 00e32bb5e61b3f749044897b2d93acd8bf33faa4
+  MaterialComponents: f4cd3085a673837e7ba4c6cf40d9da2f64566af1
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SwiftMessages: d81f48c1f8b6bc1dbebdfffe11226f0344f937ca
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: cc80fb9e477703b207086c9506d6983a169983b4
+
+COCOAPODS: 1.5.0
