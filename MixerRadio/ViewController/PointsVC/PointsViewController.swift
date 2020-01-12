@@ -36,7 +36,6 @@ class PointsViewController: UIViewController, UITableViewDelegate,UITableViewDat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    /// all this related to point
     @IBOutlet var backTopreviousView: UIButton!
     @IBAction func backTopriviousScreen(_ sender: Any) {
         
